@@ -51,7 +51,7 @@ Note:
 while interacting with the website
 
 
-![A Navigationbar](img/navigationbar.jpeg)
+![A Navigationbar](images/navigationbar.jpeg)
 Note:
 Example: Navigation bar highlighting
 
@@ -64,7 +64,7 @@ or confusing features
 -> Improves UX and makes it easier on the users' site  
 
 
-![Hick's Law](img/hicksLaw.jpg)
+![Hick's Law](images/hicksLaw.jpg)
 Note:
 Example: Hick's Law
 

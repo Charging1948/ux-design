@@ -12,7 +12,7 @@
 
 
 ## Five Dimensions
-![Five Dimensions](img/dimensions-of-interaction-design.gif)
+![Five Dimensions](images/dimensions-of-interaction-design.gif)
 > Source: [public-media.interaction-design.org](https://public-media.interaction-design.org/images/uploads/31d533650b478341a0b9f6526930fa18.gif)
 
 

@@ -190,6 +190,8 @@ gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
     .pipe(header(banner))
     .pipe(gulp.dest('./dist')))
 
+gulp.task('assets', () => gulp.src(['css/assets/*.{png,jpg,jpeg}']).pipe(gulp.dest('./dist/assets')))
+
 gulp.task('css', gulp.parallel('css-themes', 'css-core'))
 
 gulp.task('qunit', () => {
@@ -265,9 +267,9 @@ gulp.task('eslint', () => gulp.src(['./js/**', 'gulpfile.js'])
 
 gulp.task('test', gulp.series( 'eslint', 'qunit' ))
 
-gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins'), 'test'))
+gulp.task('default', gulp.series(gulp.parallel('js', 'css', 'plugins', 'assets'), 'test'))
 
-gulp.task('build', gulp.parallel('js', 'css', 'plugins'))
+gulp.task('build', gulp.parallel('js', 'css', 'plugins', 'assets'))
 
 gulp.task('package', gulp.series(() =>
 
@@ -283,6 +285,23 @@ gulp.task('package', gulp.series(() =>
         { base: './' }
     )
     .pipe(zip('reveal-js-presentation.zip')).pipe(gulp.dest('./'))
+
+))
+
+gulp.task('gh-pages', gulp.series(() =>
+
+    gulp.src(
+        [
+            './index.html',
+            './dist/**',
+            './lib/**',
+            './images/**',
+            './plugin/**',
+            './**/*.md'
+        ],
+        { base: './' }
+    )
+    .pipe(gulp.dest('./build/'))
 
 ))
 
@@ -303,6 +322,8 @@ gulp.task('serve', () => {
     gulp.watch(['js/**'], gulp.series('js', 'reload', 'eslint'))
 
     gulp.watch(['plugin/**/plugin.js', 'plugin/**/*.html'], gulp.series('plugins', 'reload'))
+
+    gulp.watch(['css/assets/*.{jpg,jpeg,png}'], gulp.series('assets'))
 
     gulp.watch([
         'css/theme/source/*.{sass,scss}',
