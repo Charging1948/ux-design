@@ -1,11 +1,13 @@
 # Introduction to UX Design
 
+
 ## Defining UX...
 >"The 'user experience' (UX) is how a human feels
 when using the interface of a digital product while
 attempting to accomplish a task or goal."
 > 
 > Jaime Levy
+
 
 ## ...and UX Design
 >"UX design is the process of designing digital or physical
@@ -20,15 +22,18 @@ needs of the users while also achieving
 business goals
 
 
+
 # UX Design Principles
 Note:
 Need to be applied with a flexibility
+
 
 ## Consistency
 Maintaining a uniform design
 Note:
 easier for users to navigate and understand  
 Example: Same style for all buttons
+
 
 ## Iteration
 A UX design process should be iterative
@@ -39,14 +44,17 @@ with real user feedback.
 With feedback optimize website  
 Rinse and repeat
 
+
 ## Feedback
 Providing timely and meaningful feedback to users
 Note:
 while interacting with the website
 
+
 ![A Navigationbar](img\navigationbar.jpeg)
 Note:
 Example: Navigation bar highlighting
+
 
 ## Simplicity
 Optimizing the design for the tasks users want to accomplish
@@ -55,14 +63,17 @@ reduces or remove unnecessary steps and interactions
 or confusing features  
 -> Improves UX and makes it easier on the users' site  
 
+
 ![Hick's Law](img\hicksLaw.jpg)
 Note:
 Example: Hick's Law
+
 
 ## Performance
 The product's performance should be good
 Note:
 A website that does not load completely ruins the UX
+
 
 ## Accessibility
 The product should be accessible to all users
