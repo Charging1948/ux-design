@@ -362,6 +362,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .glass-background {
   backdrop-filter: blur(6px);
-  background: rgba(158, 158, 158, 0.5);
+  padding: 20px 0;
+  background: rgba(100, 100, 100, 0.5);
   border-radius: 16px;
 }
