@@ -48,3 +48,9 @@ $heading4Size: 1.0em;
   background: url("../../images/background_daniel.png");
   background-size: cover;
 }
+
+.glass-background {
+  backdrop-filter: blur(6px);
+  background: rgb(158,158,158,0.5);
+  border-radius: 16px;
+}
