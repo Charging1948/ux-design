@@ -51,7 +51,7 @@ Note:
 while interacting with the website
 
 
-![A Navigationbar](images/navigationbar.jpeg)
+![A Navigationbar](images/navigationbar.png)
 Note:
 Example: Navigation bar highlighting
 
