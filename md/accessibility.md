@@ -13,7 +13,8 @@
 
 ## Five Dimensions
 ![Five Dimensions](img/dimensions-of-interaction-design.gif)
-> <sub><sup>https://public-media.interaction-design.org/images/uploads/31d533650b478341a0b9f6526930fa18.gif</sup></sub>
+> Source: [public-media.interaction-design.org](https://public-media.interaction-design.org/images/uploads/31d533650b478341a0b9f6526930fa18.gif)
+
 
 ## Five Dimensions
 - Words
