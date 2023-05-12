@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>reveal.js</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/white.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <section style="backdrop-filter: blur(6px);background: rgb(158,158,158,0.5); border-radius: 16px;">
+          <h1>UX Design</h1>
+          <div class="fragment">
+            <h3>A presentation by</h3>
+            <p>Daniel Reer, Maik Jökel und Joachim Kern</p>
+          </div>
+        </section>
+      </section>
+      <section>
+        <h1>Agenda</h1>
+        <div class="fragment">
+          <ul>
+            <li>Introduction to UX Design</li>
+            <li>UX Design Principles</li>
+            <li>UX Design Process</li>
+            <li>Interaction Design</li>
+            <li>Web Accessibility</li>
+          </ul>
+        </div>
+      </section>
+
+      <section data-markdown="md/intro.md" data-separator="^\r?\n\r?\n\r?\n" data-separator-vertical="^\r?\n\r?\n"
+        data-separator-notes="^Note:">
+      </section>
+      <section>
+        <h3>UX vs UI</h3>
+        <img src="img/uiux.jpg" alt="UX vs Ui" class="r-stretch">
+        <p>Source: https://www.animaapp.com/blog/industry/ux-vs-ui-whats-the-difference-and-why-does-it-matter/</p>
+        <aside class="notes">
+          <p>
+            UX focuses on the overall experience and usability <br>
+            UI focuses on specific visual and interactive elements <br>
+            Both equally important for the overall website design and are closely connected <br>
+            UX design comes before UI
+          </p>
+        </aside>
+      </section>
+      <section data-markdown="md/process.md" data-separator="^\r?\n\r?\n\r?\n" data-separator-vertical="^\r?\n\r?\n"
+        data-separator-notes="^Note:" style="">
+      </section>
+      <section data-markdown="md/accessibility.md" data-separator="^\r?\n\r?\n\r?\n"
+        data-separator-vertical="^\r?\n\r?\n" data-separator-notes="^Note:" style="">
+      </section>
+      <section data-markdown="md/outro.md" data-separator="^\r?\n\r?\n\r?\n" data-separator-vertical="^\r?\n\r?\n"
+        data-separator-notes="^Note:" style="">
+      </section>
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/search/search.js"></script>
+  <script src="plugin/zoom/zoom.js"></script>
+  <script src="plugin/math/math.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      preloadIframes: true,
+      slideNumber: 'c/t',
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealMath, RevealSearch]
+    });
+  </script>
+</body>
+
+</html>
