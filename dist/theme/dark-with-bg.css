@@ -357,7 +357,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 .reveal-viewport {
   background: url("../../images/background_daniel.png");
-  background-size: contain;
 }
 
 .glass-background {
